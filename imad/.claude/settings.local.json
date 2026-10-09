@@ -1,0 +1,28 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -c \"import numpy, matplotlib, pandas; print\\('np ok'\\)\")",
+      "Bash(python3 -c \"import docx; print\\('docx ok'\\)\")",
+      "Bash(python3 -c \"import fitz; print\\('fitz ok'\\)\")",
+      "Read(//Applications/**)",
+      "Bash(python3 -m venv venv)",
+      "Bash(./venv/bin/pip install *)",
+      "Bash(./venv/bin/python -c \"import fitz, numpy, docx, matplotlib; print\\('ok'\\)\")",
+      "Bash(mkdir -p /private/tmp/claude-501/-Users-hq-hp29c192nc-leti-sem7-imad/2c45d247-2a87-4267-a971-95aedccec985/scratchpad/pdf)",
+      "Bash(/private/tmp/claude-501/-Users-hq-hp29c192nc-leti-sem7-imad/2c45d247-2a87-4267-a971-95aedccec985/scratchpad/venv/bin/python -I -c ' *)",
+      "Bash(curl -s -m 20 -o /dev/null -w \"%{http_code}\\\\n\" \"https://www.nmdb.eu/nest/draw_graph.php?wget=1&stations[]=MOSC&tabchoice=revori&dtype=corr_for_efficiency&tresolution=0&force=1&yunits=0&date_choice=bydate&start_day=1&start_month=11&start_year=2018&start_hour=0&start_min=0&end_day=1&end_month=11&end_year=2018&end_hour=1&end_min=0&output=ascii\")",
+      "Bash(mkdir -p /private/tmp/claude-501/-Users-hq-hp29c192nc-leti-sem7-imad/2c45d247-2a87-4267-a971-95aedccec985/scratchpad/dl)",
+      "Bash(curl -s -m 60 -o t1.txt \"https://www.nmdb.eu/nest/draw_graph.php?formchk=1&stations[]=AATB&tabchoice=revori&dtype=corr_for_efficiency&tresolution=0&yunits=0&date_choice=bydate&start_day=2&start_month=5&start_year=2017&start_hour=0&start_min=0&end_day=2&end_month=5&end_year=2017&end_hour=0&end_min=10&output=ascii\")",
+      "Bash(mkdir -p /Users/hq-hp29c192nc/leti/sem7/imad/lab2/data /Users/hq-hp29c192nc/leti/sem7/imad/lab2/figures)",
+      "Bash(curl -s -m 120 -o aatb_history.html '__TRACKED_VAR__&start_day=2&start_month=5&start_year=2017&start_hour=0&start_min=0&end_day=10&end_month=5&end_year=2017&end_hour=23&end_min=59')",
+      "Bash(curl -s -m 60 -o aatb_actual.html '__TRACKED_VAR__&start_day=11&start_month=5&start_year=2017&start_hour=0&start_min=0&end_day=11&end_month=5&end_year=2017&end_hour=0&end_min=59')",
+      "Bash(grep -viE ';[0-9]+\\\\.[0-9]+$')",
+      "Bash(/private/tmp/claude-501/-Users-hq-hp29c192nc-leti-sem7-imad/2c45d247-2a87-4267-a971-95aedccec985/scratchpad/venv/bin/python -I -)",
+      "Bash(/private/tmp/claude-501/-Users-hq-hp29c192nc-leti-sem7-imad/2c45d247-2a87-4267-a971-95aedccec985/scratchpad/venv/bin/python imad2.py)",
+      "Bash(/private/tmp/claude-501/-Users-hq-hp29c192nc-leti-sem7-imad/2c45d247-2a87-4267-a971-95aedccec985/scratchpad/venv/bin/python -c ' *)",
+      "Bash(sed -n '/корреляция/,/^$/p')",
+      "Bash(PYTHONDONTWRITEBYTECODE=1 /private/tmp/claude-501/-Users-hq-hp29c192nc-leti-sem7-imad/2c45d247-2a87-4267-a971-95aedccec985/scratchpad/venv/bin/python /private/tmp/claude-501/-Users-hq-hp29c192nc-leti-sem7-imad/2c45d247-2a87-4267-a971-95aedccec985/scratchpad/build_report.py /Users/hq-hp29c192nc/leti/sem7/imad/lab2 /Users/hq-hp29c192nc/leti/sem7/imad/lab2/ЛР2_Щеглов_3381.docx)",
+      "Bash(./venv/bin/python -c \"import docx, numpy, pandas, matplotlib, pymupdf; print\\('ok'\\)\")"
+    ]
+  }
+}
