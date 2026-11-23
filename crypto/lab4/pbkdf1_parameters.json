@@ -1,0 +1,11 @@
+{
+  "password": "Щеглов Михаил Алексеевич 18.02.2005",
+  "encoding": "UTF-8",
+  "salt_hex": "b90d72e4a36f851c",
+  "hash": "SHA-1",
+  "iterations": 1000,
+  "dkLen": 20,
+  "key_hex": "8c5446e06e422b6c6e9871cc3883c312d12583a0",
+  "message": "Hello world!",
+  "hmac_sha1": "076d2727054e0516f7b42b2ce201f36927da6326"
+}
